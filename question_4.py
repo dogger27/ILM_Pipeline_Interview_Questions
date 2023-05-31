@@ -1,4 +1,10 @@
 """
+Question #4: Implement a simple priority queue.
+Assume an incoming stream of dictionaries containing two keys: command to be executed and priority.
+Priority is an integer value [0, 10], where work items of the same priority are processed in the order
+they are received.
+
+
 This module provides an abstract base class `AbstractPriorityQueue` for priority queue
 implementations, as well as two concrete implementations `PriorityQueue1` and `PriorityQueue2`.
 
@@ -46,9 +52,11 @@ class PriorityQueue1(AbstractPriorityQueue):
 
     def __init__(self):
         self._queue = []
+        self._counter = 0  # New variable to track the order items are added
 
     def push(self, item, priority):
-        self._queue.append((priority, item))
+        self._queue.append((priority, self._counter, item))
+        self._counter += 1
 
     def pop(self):
         self._queue.sort(reverse=True)
@@ -63,12 +71,14 @@ class PriorityQueue2(AbstractPriorityQueue):
 
     def __init__(self):
         self._queue = []
+        self._counter = 0  # New variable to track the order items are added
 
     def push(self, item, priority):
-        heappush(self._queue, (priority, item))
+        heappush(self._queue, (priority, self._counter, item))
+        self._counter += 1
 
     def pop(self):
-        return heappop(self._queue)[1]
+        return heappop(self._queue)[2]
 
     def is_empty(self):
         return len(self._queue) == 0
@@ -84,8 +94,19 @@ def test_priority_queue(q):
     q.push("item2", 1)
     q.push("item3", 3)
 
+    # Push several items with the same priority
+    q.push("item4", 2)
+    q.push("item5", 2)
+    q.push("item6", 2)
+
     assert q.pop() == "item2"
     assert q.pop() == "item1"
+
+    # These 3 items all have the same priority, so they should be popped in the order they were added
+    assert q.pop() == "item4"
+    assert q.pop() == "item5"
+    assert q.pop() == "item6"
+
     assert q.pop() == "item3"
 
     assert q.is_empty()
