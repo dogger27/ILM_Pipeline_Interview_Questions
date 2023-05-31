@@ -1,0 +1,7 @@
+﻿Question #1:  Please explain Big-O notation in simple terms.
+
+
+Big-O notation is a way of expressing how well an algorithm scales as the size of the task grows. It gives an upper bound (worst-case scenario) of the time complexity of an algorithm. It's a way of comparing the efficiency of different algorithms.
+
+
+We use Big-O notation to measure how the time to complete a task grows with the size of the input. The smaller the Big-O, the better the algorithm will scale as the size of the task or input grows.
