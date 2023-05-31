@@ -1,28 +1,40 @@
 ﻿Question #2:  What are the most important things to look for when reviewing another team member's code?
 
 
-   When reviewing another team member's code, it's important to consider several key factors.
+When reviewing another team member's code, it's important to consider several key factors.
 
 
-   Code Clarity and Readability: This is perhaps the most important aspect. The code should be written in a way that others can easily understand. This includes naming conventions, syntax, and the use of comments and documentation. Even the most efficient code can be of little use if no one else can understand it.
+   Code Clarity and Readability: This is perhaps the most important aspect. The code should be written in a way that others can easily
+understand. This includes naming conventions, syntax, and the use of comments and documentation. Even the most efficient code can be 
+of little use if no one else can understand it.
 
 
-   Consistent Coding Standards: Following the coding standards set by the team is crucial. These standards may include rules for naming variables and functions, indentation, use of spaces and tabs, and how to write comments. Ensuring that code meets these standards can enhance its readability and maintainability.
+   Consistent Coding Standards: Following the coding standards set by the team is crucial. These standards may include rules for 
+naming variables and functions, indentation, use of spaces and tabs, and how to write comments. Ensuring that code meets these 
+standards can enhance its readability and maintainability.
 
 
-   Logic and Functionality: Reviewing the logic behind the code is also important. This involves checking the efficiency and effectiveness of algorithms, validating that the code produces the expected output, and confirming that the code correctly handles edge cases.
+   Logic and Functionality: Reviewing the logic behind the code is also important. This involves checking the efficiency and
+effectiveness of algorithms, validating that the code produces the expected output, and confirming that the code correctly handles 
+edge cases.
 
 
-   Modularity and Reusability: Good code should be modular and reusable. It's better to have smaller, independent functions or modules that perform one specific task, rather than long, complicated functions that do many things. This also makes the code easier to test and debug.
+   Modularity and Reusability: Good code should be modular and reusable. It's better to have smaller, independent functions or modules 
+that perform one specific task, rather than long, complicated functions that do many things. This also makes the code easier to test 
+and debug.
 
 
-   Error Handling: It's vital to ensure that the code anticipates and correctly handles potential errors. This could be anything from checking the validity of input data to handling exceptions gracefully.
+   Error Handling: It's vital to ensure that the code anticipates and correctly handles potential errors. This could be anything from 
+checking the validity of input data to handling exceptions gracefully.
 
 
-   Testability: The code should be written in a way that allows testing, such as unit tests,  which target a small unit of code (ie. function), and test its behaviour in an isolated scenario.
+   Testability: The code should be written in a way that allows testing, such as unit tests,  which target a small unit of code (ie. 
+function), and test its behaviour in an isolated scenario.
 
 
-   Compliance with the pipeline's architecture: Lastly, the code needs to integrate well within the established pipeline and not break existing workflows. Compatibility with the rest of the system is vital for seamless operations.
+   Compliance with the pipeline's architecture: Lastly, the code needs to integrate well within the established pipeline and not break 
+existing workflows. Compatibility with the rest of the system is vital for seamless operations.
 
 
-   When reviewing a colleague's code, I aim to provide constructive feedback that helps maintain high coding standards and encourages continuous learning and improvement.
+   When reviewing a colleague's code, I aim to provide constructive feedback that helps maintain high coding standards and encourages 
+continuous learning and improvement.
