@@ -1,8 +1,18 @@
 ﻿Question #3: Describe a recent interaction with someone who was non-technical. What did you need to communicate and how did you do it?
 
 
-   As the Pipeline Technical Director, I had a conversation with the real-time department coordinator about a project I recently completed: the "Unreal Depot." This system was designed to store our Unreal assets, created in-house or  those downloaded from the Epic Marketplace.
-   During our discussion, I explained to the coordinator how the Unreal Depot would enhance our workflow by providing a centralized repository for our assets. I emphasized the importance of their role in adding our existing assets to the depot and reporting any bugs or suggesting improvements from a user perspective.
-   Recognizing the coordinator's expertise in the real-time department, I expressed my appreciation for their assistance and their unique insight into how the system would be utilized. I assured them that their feedback would be invaluable in refining the Unreal Depot to meet the specific needs of our team.
-   Understanding their responsibilities, the coordinator expressed their readiness to contribute and requested guidance on the process of adding assets and reporting any issues they encountered. I acknowledged their enthusiasm and commitment, assuring them that I would provide a detailed guide to assist them. I encouraged open communication, urging them to reach out if they faced any challenges or had questions along the way.
-   Throughout our interaction, I maintained a collaborative and supportive tone, emphasizing the coordinator's integral role in adding assets and improving the user experience of the Unreal Depot specifically for the real-time department.
+   As the Pipeline Technical Director, I had a conversation with the real-time department coordinator about a project I recently 
+completed: the "Unreal Depot." This system was designed to store our Unreal assets, created in-house or  those downloaded from the Epic 
+Marketplace.
+   During our discussion, I explained to the coordinator how the Unreal Depot would enhance our workflow by providing a centralized 
+repository for our assets. I emphasized the importance of their role in adding our existing assets to the depot and reporting any bugs or 
+suggesting improvements from a user perspective.
+   Recognizing the coordinator's expertise in the real-time department, I expressed my appreciation for their assistance and their unique 
+insight into how the system would be utilized. I assured them that their feedback would be invaluable in refining the Unreal Depot to meet 
+the specific needs of our team.
+   Understanding their responsibilities, the coordinator expressed their readiness to contribute and requested guidance on the process of 
+adding assets and reporting any issues they encountered. I acknowledged their enthusiasm and commitment, assuring them that I would 
+provide a detailed guide to assist them. I encouraged open communication, urging them to reach out if they faced any challenges or had 
+questions along the way.
+   Throughout our interaction, I maintained a collaborative and supportive tone, emphasizing the coordinator's integral role in adding 
+assets and improving the user experience of the Unreal Depot specifically for the real-time department.
